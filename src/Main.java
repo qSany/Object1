@@ -39,7 +39,6 @@ public class Main {
                 this.lastName = lastName;
             }
 
-
             public String getFirstName() {
                 return firstName;
             }
