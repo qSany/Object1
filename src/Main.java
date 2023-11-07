@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         class Book {
             int String = title ();
-            int Author= ("John Smith");
+            int Author = ("John Smith");
             int publicationYear = ("2023");
 
             public Book(String title, Author author, int publicationYear) {
