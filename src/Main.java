@@ -52,6 +52,7 @@ public class Main {
         class App {
 
 
+
                 Author author1 = new Author("John", "Smith");
                 Author author2 = new Author("Jane", "Doe");
 
