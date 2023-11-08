@@ -4,6 +4,7 @@ public class Main {
             int String = title ();
             int Author = ("John Smith");
             int publicationYear = ("2023");
+            int book ();
 
             public Book(String title, Author author, int publicationYear) {
                 this.title = title;
@@ -49,7 +50,7 @@ public class Main {
             }
         }
         class App {
-            public static void main(String[] args) {
+
 
                 Author author1 = new Author("John", "Smith");
                 Author author2 = new Author("Jane", "Doe");
@@ -57,10 +58,10 @@ public class Main {
                 Book book1 = new Book("Гарри Поттер и волшебный камень", author1, 1997);
                 Book book2 = new Book("Путеводитель автостопщика по Галактике", author2, 1979);
 
-                System.out.printlnln("Книга 1: " + book1.getTitle() + ", опубликовано в " + book1.getPublicationYear());
+                System.out.printlnln("Book 1: " + book1.getTitle() + ", опубликовано в " + book1.getPublicationYear());
                 System.out.printlnln("Author 1: " + author1.getFirstName() + " " + author1.getLastName());
 
-                System.out.println("Книга 2: " + book2.getTitle() + ", опубликовано в");
+                System.out.println("Book 2: " + book2.getTitle() + ", опубликовано в");
                 System.out.printlnln(author2.getFirstName() + " ");
                 System.out.printlnln(author2.getLastName());
 
@@ -68,7 +69,7 @@ public class Main {
                 book1.setPublicationYear(2022);
 
                 System.out.println("После изменения года публикации:");
-                System.out.println("Книга 1: " + book1.getTitle() + ", опубликовано в " +
+                System.out.println("Book 1: " + book1.getTitle() + ", опубликовано в " +
                         book1.getPublicationYear());
             }
         }
